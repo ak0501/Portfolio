@@ -1,35 +1,104 @@
-.sidenav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    min-height: 100vh;
-    max-height: 100vh;
-    width: 200px;
-    z-index: 2;
-    pointer-events: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    width: 300px;
-    left: 0;
-    top: 0;
-    margin: 0;
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    height: 100%;
-    height: calc(100% + 60px);
-    height: -moz-calc(100%);
-    padding-bottom: 60px;
-    background-color: #fff;
-    z-index: 999;
-    overflow-y: auto;
-    will-change: transform;
+* {
+    box-sizing: border-box;
 }
 
-ul li {
-    list-style-type: none;
-    line-height: 20px;
+body {
+    background-image: url(double-bubble-outline.png)
+}
+
+#rodri {
+
+    text-align: center;
+    background-color: gainsboro;
+
+}
+
+p {
+    text-indent: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav-item {
+    font-size: 25px;
+    font-family: 'Ubuntu',
+        sans-serif;
+
+}
+
+#title {
+    background-color: #ff4c68;
+    height: auto;
+    text-align: justify;
+}
+
+.row {
+
+    padding: 20px;
+}
+
+
+.nav-item {
+
+    font-family: 'Ubuntu',
+        sans-serif, Medium 500;
+}
+
+h3 {
+    font-size: small;
+    display: block;
+}
+
+.card-image {
+    padding-left: 100px;
+}
+
+
+@media (max-width: 650px) {
+    h2 {
+        font-size: small;
+    }
+
+    .nav-item {
+        font-size: large;
+        display: flex;
+    }
+
+
+}
+
+/* Bootstrap cards */
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
 }
