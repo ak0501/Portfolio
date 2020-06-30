@@ -52,6 +52,12 @@ h3 {
     padding-left: 100px;
 }
 
+#me {
+    font-family: 'Yellowtail',
+        cursive;
+    font-size: 3em;
+
+}
 
 @media (max-width: 650px) {
     h2 {

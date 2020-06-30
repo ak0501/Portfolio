@@ -15,27 +15,13 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-
-
-    <!-- Navbar goes here -->
-
-    <!-- Page Layout here -->
-    <div class="row">
-
-        <div class="col s3">
-            <!-- Grey navigation panel -->
-        </div>
-
-        <div class="col s9">
-            <!-- Teal page content  -->
-        </div>
-
-    </div>
-
     <!-- L13 is where I created the strip for the navbar -->
     <div class="container-fluid">
         <nav class="navbar navbar-expand-sm navbar-light sticky-top " style="background-color:teal ">
@@ -49,7 +35,7 @@
                     <a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactme.html" target="_blank">Contact</a>
+                    <a class="nav-link" href="#contactme" target="_blank">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -57,7 +43,7 @@
     <div class="container-fluid ">
         <div class="row">
             <div class="col-sm-12" id="rodri">
-                <h2>Abinash Khanal</h2>
+                <h2 style="font-family: 'MuseoModerno' , cursive;">Abinash Khanal</h2>
             </div>
         </div>
     </div>
@@ -71,8 +57,7 @@
                 and anything smaller than lg size will take up the entire width of the row  -->
             <div class="col-lg-6 ">
                 <article>
-                    <p>Hello, I am Abinash and I am a fullstack developer.I am fairly new to this area but I hope to
-                        learn a lot from practicing.
+                    <p id="me">Hello, I am Abinash and I am learning to be a fullstack developer.
                 </article>
 
             </div>
@@ -89,7 +74,7 @@
                 <div class="col-md-12 py-2" style="text-align: center;">
                     <div class=" flex-center">
                         <!-- Gmail -->
-                        <a class="go-ic" href="mailto:avinashkhanal@gmail.com">
+                        <a class="go-ic" id="contactme" href="mailto:avinashkhanal@gmail.com">
                             <i class="fas fa-envelope fa-lg  mr-md-5 mr-3 fa-2x"></i>
                         </a>
                         <!--Linkedin -->
