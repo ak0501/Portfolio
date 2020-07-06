@@ -1,2 +1,1 @@
-# Portfolio
- A personal portfolio.
+A personal portfolio design using vanilla CSS and Materialize framework.

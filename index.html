@@ -1,106 +1,165 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <title>Resume</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <!-- google font -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <script src="/media/js/new-site-engine.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- ----------------------------- used fonts ------------------------------ -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
 
+    <!-- ----------------------------- used fonts ------------------------------ -->
+
+    <link rel="stylesheet" href="./Assets/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-    <!-- L13 is where I created the strip for the navbar -->
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-light sticky-top " style="background-color:teal ">
-            <!-- L15 is to create the brand name with navbar-brand . You can add image as well with "src"-->
-
-            <ul class="navbar-nav flex-row ml-auto" style="text-decoration: mediumpurple;">
-                <li class="nav-item border-right ">
-                    <a class="nav-link " href="#aboutme">Home</a>
-                </li>
-                <li class="nav-item border-right ">
-                    <a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contactme" target="_blank">Contact</a>
-                </li>
-            </ul>
-        </nav>
+    <div>
+        <a href="#" data-target="slide-out" class="sidenav-trigger "><i class="material-icons ">menu</i></a>
     </div>
-    <div class="container-fluid ">
-        <div class="row">
-            <div class="col-sm-12" id="rodri">
-                <h2 style="font-family: 'MuseoModerno' , cursive;">Abinash Khanal</h2>
-            </div>
-        </div>
-    </div>
-    <main>
 
-        <div class="row ml-auto">
-            <div class="col-lg-6 col-md-12">
-                <img class="img-fluid img-thumbnail " id="page_pic" src="abinash.jpg" alt=" Profile pic">
-            </div>
-            <!-- Read this as "On any screen size that is bigger (laptop/desktop) the colum will occupy 6 units column ,means half of page "
-                and anything smaller than lg size will take up the entire width of the row  -->
-            <div class="col-lg-6 ">
-                <article>
-                    <p id="me">Hello, I am Abinash and I am learning to be a fullstack developer.
-                </article>
-
-            </div>
-        </div>
-    </main>
-    <!----------------------------Footer---------------------------------------------->
-    <!-- Footer -->
-    <footer class="page-footer">
-        <!-- Footer Elements -->
-        <div class="container">
-            <!-- Grid row-->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-md-12 py-2" style="text-align: center;">
-                    <div class=" flex-center">
-                        <!-- Gmail -->
-                        <a class="go-ic" id="contactme" href="mailto:avinashkhanal@gmail.com">
-                            <i class="fas fa-envelope fa-lg  mr-md-5 mr-3 fa-2x"></i>
-                        </a>
-                        <!--Linkedin -->
-                        <a class="li-ic" href="https://www.linkedin.com/in/abinash-khanal-a220601aa/" target="_blank">
-                            <i class="fab fa-linkedin-in fa-lg  mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <!-- Grid column -->
-                    </div>
+    <ul id="slide-out" class="sidenav col s12 m4 l3">
+        <li>
+            <div class="user-view">
+                <div class="background ">
+                    <img class="responsive-img" src="./Assets/background.jpg" style="margin-top:0;">
+                </div>
+                <div style="text-align: center; align-items: center;">
+                    <a href="#user"><img class="circle responsive-img" src="./Assets/abinash.png"
+                            style="height: 200px; width: auto; margin-left: 32.5px;"></a>
+                    <a href="#name"><span class="black-text  name">Abinash Khanal</span></a>
+                    <a href="#email"><span class="black-text email">avinashkhanal@gmail.com</span></a>
                 </div>
             </div>
+        </li>
+        <!----------------------------Side-Nav icons--------------------------------------------->
+        <div class="side-navbar col s12 m4 l3 ">
+            <ul id="slid" style="margin-top:50px;">
+                <li><a href="" class=""><i class="fa fa-home fa-3x"></i> Home</a></li>
+                <li><a href="#projects" class=""><i class="fa fa-code fa-3x"></i> Projects</a></li>
+                <li><a href="" class=""><i class="fa fa-child fa-3x"></i> About</a></li>
+                <li>
+                    <a onclick="M.toast({html: 'Email Me!'})"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                        Contact</a>
+                </li>
+            </ul>
         </div>
-    </footer>
-    <!----------------------------Footer---------------------------------------------->
+    </ul>
+    <!-- ----------------------------------------------------------------------->
+    <!---------------------------------- card ----------------------------------->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <div class="card hoverable ">
+        <div class="card-header valign-wrapper">
+            <img class="circle responsive-img " src="./Assets/abinash.png" />
+        </div>
+        <div class="card-content flow-text">
+            <h3>Abinash Khanal</h3>
+            <h4>Full Stack Developer </h4>
+            <p></p>
+        </div>
+        <div class="card-footer">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa fa-codepen"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-stack-overflow"></i></a>
+                </li>
+                <li>
+                    <a href="http://github.com/ak0501" target="_blank"><i class="fa fa-github "></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/abinash-khanal-a220601aa/" target="_blank"><i
+                            class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <!-- ---------------------------- Modal---------------------------- -->
+                    <a class="modal-trigger" href="#modal1"><i class="fa fa-paper-plane "></i></a>
+                    <!-- --------------------------- Modal Structure --------------------------- -->
+                    <div id="modal1" class="modal">
+                        <section class="container">
+                            <div class="row">
+                                <h3 class="center-align">CONTACT ME</h3>
+                                <article class="col s6 offset-s3">
+                                    <form method="POST" action="">
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">perm_identity</i>
+                                            <label for="name">Name</label>
+                                            <input type="text" name="nombre" required>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">person_pin</i>
+                                            <label for="lastname">Last Name</label>
+                                            <input type="text" name="apellido" required>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">email</i>
+                                            <label for="email">Email</label>
+                                            <input type="email" name="email" required>
+                                        </div>
+                                        <div class="input-field">
+                                            <i class="material-icons prefix">mode_edit</i>
+                                            <label for="message">Messagee</label>
+                                            <textarea name="message" id="" rows="10" class="materialize-textarea"
+                                                length="140" required></textarea>
+                                        </div>
+                                        <p class="center-align">
+                                            <button class="waves-effect waves-light btn" type="submit"><i
+                                                    class="material-icons right">send</i>send</button>
+                                        </p>
+                                    </form>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+        </div>
+        </li>
+        </ul>
+    </div>
+    </div>
+    <!----------------------------------- card-End --------------------------------- -->
 
+    <!-- ------------------------------ carousel-Projects ---------------------------------->
+    <div class="carousel" id="projects" style="height:200px;">
+        <a class="carousel-item" id="todo" href="https://ak0501.github.io/To-Do-Planner/"><img
+                src="./Assets/todo.png">TO-DO
+            PLANNER</a>
+        <a class="carousel-item" id="passwd" href="https://ak0501.github.io/Password_Generator/"><img
+                src="./Assets/password.png">Password
+            Generator</a>
+        <a class="carousel-item" id="weather" href="https://ak0501.github.io/Weather-API/"><img
+                src="./Assets/weather.png">Weather
+            Condition</a>
+    </div>
+    <!-------------------------------- carousel ------------------------------- -->
+
+    <!--------------------------------- footer -------------------------------- -->
+
+    <div class="footer-copyright center-align">
+        <div class="container" id="footer">
+            ©materialize
+        </div>
+    </div>
+    <!-- ------------------------------- footer -------------------------------- -->
+
+    <!--JavaScript at end of body for optimized loading-->
+
+    <script src="script.js"></script>
 </body>
 
 </html>
