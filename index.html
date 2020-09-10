@@ -1,167 +1,246 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
+  <head>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
     <script src="/media/js/new-site-engine.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- ----------------------------- used fonts ------------------------------ -->
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- ----------------------------- used fonts ------------------------------ -->
 
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./Assets/style.css" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div>
-        <a href="#" data-target="slide-out" class="sidenav-trigger "><i class="material-icons ">menu</i></a>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"
+        ><i class="material-icons">menu</i></a
+      >
     </div>
 
     <ul id="slide-out" class="sidenav col s12 m4 l3">
-        <li>
-            <div class="user-view">
-                <div class="background ">
-                    <img class="responsive-img" src="./Assets/background.jpg" style="margin-top:0;">
-                </div>
-                <div style="text-align: center; align-items: center;">
-                    <a href="#user"><img class="circle responsive-img" src="./Assets/abinash.png"
-                            style="height: 200px; width: auto; margin-left: 32.5px;"></a>
-                    <a href="#name"><span class="black-text  name">Abinash Khanal</span></a>
-                    <a href="#email"><span class="black-text email">avinashkhanal@gmail.com</span></a>
-                </div>
-            </div>
-        </li>
-        <!----------------------------Side-Nav icons--------------------------------------------->
-        <div class="side-navbar col s12 m4 l3 ">
-            <ul id="slid" style="margin-top:50px;">
-                <li><a href="" class=""><i class="fa fa-home fa-3x"></i> Home</a></li>
-                <li><a href="#projects" class=""><i class="fa fa-code fa-3x"></i> Projects</a></li>
-                <li><a href="" class=""><i class="fa fa-child fa-3x"></i> About</a></li>
-                <li>
-                    <a onclick="M.toast({html: 'Email Me!'})"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-                        Contact</a>
-                </li>
-            </ul>
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img
+              class="responsive-img"
+              src="./Assets/background.jpg"
+              style="margin-top: 0"
+            />
+          </div>
+          <div style="text-align: center; align-items: center">
+            <a href="#user"
+              ><img
+                class="circle responsive-img"
+                src="./Assets/abinash.png"
+                style="height: 200px; width: auto; margin-left: 32.5px"
+            /></a>
+            <a href="#name"
+              ><span class="black-text name">Abinash Khanal</span></a
+            >
+            <a href="#email"
+              ><span class="black-text email">avinashkhanal@gmail.com</span></a
+            >
+          </div>
         </div>
+      </li>
+      <!----------------------------Side-Nav icons--------------------------------------------->
+      <div class="side-navbar col s12 m4 l3">
+        <ul id="slid" style="margin-top: 50px">
+          <li>
+            <a href="" class=""><i class="fa fa-home fa-3x"></i> Home</a>
+          </li>
+          <li>
+            <a href="#projects" class=""
+              ><i class="fa fa-code fa-3x"></i> Projects</a
+            >
+          </li>
+          <li>
+            <a href="" class=""><i class="fa fa-child fa-3x"></i> About</a>
+          </li>
+          <li>
+            <a onclick="M.toast({html: 'Email Me!'})"
+              ><i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+              Contact</a
+            >
+          </li>
+        </ul>
+      </div>
     </ul>
     <!-- ----------------------------------------------------------------------->
     <!---------------------------------- card ----------------------------------->
 
-    <div class="card hoverable ">
-        <div class="card-header valign-wrapper">
-            <img class="circle responsive-img " src="./Assets/abinash.png" />
-        </div>
-        <div class="card-content flow-text">
-            <h3>Abinash Khanal</h3>
-            <h4>Full Stack Developer </h4>
-            <p></p>
-        </div>
-        <div class="card-footer">
-            <ul>
-                <li>
-                    <a href="#"><i class="fa fa-codepen"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-stack-overflow"></i></a>
-                </li>
-                <li>
-                    <a href="http://github.com/ak0501" target="_blank"><i class="fa fa-github "></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/abinash-khanal-a220601aa/" target="_blank"><i
-                            class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                    <!-- ---------------------------- Modal---------------------------- -->
-                    <a class="modal-trigger" href="#modal1"><i class="fa fa-paper-plane "></i></a>
-                    <!-- --------------------------- Modal Structure --------------------------- -->
-                    <div id="modal1" class="modal">
-                        <section class="container">
-                            <div class="row">
-                                <h3 class="center-align">CONTACT ME</h3>
-                                <article class="col s6 offset-s3">
-                                    <form method="POST" action="">
-                                        <div class="input-field">
-                                            <i class="material-icons prefix">perm_identity</i>
-                                            <label for="name">Name</label>
-                                            <input type="text" name="nombre" required>
-                                        </div>
-                                        <div class="input-field">
-                                            <i class="material-icons prefix">person_pin</i>
-                                            <label for="lastname">Last Name</label>
-                                            <input type="text" name="apellido" required>
-                                        </div>
-                                        <div class="input-field">
-                                            <i class="material-icons prefix">email</i>
-                                            <label for="email">Email</label>
-                                            <input type="email" name="email" required>
-                                        </div>
-                                        <div class="input-field">
-                                            <i class="material-icons prefix">mode_edit</i>
-                                            <label for="message">Messagee</label>
-                                            <textarea name="message" id="" rows="10" class="materialize-textarea"
-                                                length="140" required></textarea>
-                                        </div>
-                                        <p class="center-align">
-                                            <button class="waves-effect waves-light btn" type="submit"><i
-                                                    class="material-icons right">send</i>send</button>
-                                        </p>
-                                    </form>
-                                </article>
-                            </div>
-                        </section>
-                    </div>
-                </li>
-            </ul>
-        </div>
+    <div class="card hoverable">
+      <div class="card-header valign-wrapper">
+        <img class="circle responsive-img" src="./Assets/abinash.png" />
+      </div>
+      <div class="card-content flow-text">
+        <h3>Abinash Khanal</h3>
+        <h4>Full Stack Developer</h4>
+        <p></p>
+      </div>
+      <div class="card-footer">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-codepen"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-stack-overflow"></i></a>
+          </li>
+          <li>
+            <a href="http://github.com/ak0501" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/abinash-khanal-a220601aa/"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <!-- ---------------------------- Modal---------------------------- -->
+            <a class="modal-trigger" href="#modal1"
+              ><i class="fa fa-paper-plane"></i
+            ></a>
+            <!-- --------------------------- Modal Structure --------------------------- -->
+            <div id="modal1" class="modal">
+              <section class="container">
+                <div class="row">
+                  <h3 class="center-align">CONTACT ME</h3>
+                  <article class="col s6 offset-s3">
+                    <form method="POST" action="">
+                      <div class="input-field">
+                        <i class="material-icons prefix">perm_identity</i>
+                        <label for="name">Name</label>
+                        <input type="text" name="nombre" required />
+                      </div>
+                      <div class="input-field">
+                        <i class="material-icons prefix">person_pin</i>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="apellido" required />
+                      </div>
+                      <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required />
+                      </div>
+                      <div class="input-field">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <label for="message">Messagee</label>
+                        <textarea
+                          name="message"
+                          id=""
+                          rows="10"
+                          class="materialize-textarea"
+                          length="140"
+                          required
+                        ></textarea>
+                      </div>
+                      <p class="center-align">
+                        <button
+                          class="waves-effect waves-light btn"
+                          type="submit"
+                        >
+                          <i class="material-icons right">send</i>send
+                        </button>
+                      </p>
+                    </form>
+                  </article>
+                </div>
+              </section>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <!----------------------------------- card-End --------------------------------- -->
 
     <!-- ------------------------------ carousel-Projects ---------------------------------->
-    <div class="carousel" id="projects" style="height:200px;">
-        <a class="carousel-item" id="todo" href="https://ak0501.github.io/To-Do-Planner/"><img
-                src="./Assets/todo.png">TO-DO
-            PLANNER</a>
-        <a class="carousel-item" id="passwd" href="https://ak0501.github.io/Password_Generator/"><img
-                src="./Assets/password.png">Password
-            Generator</a>
-        <a class="carousel-item" id="weather" href="https://ak0501.github.io/Weather-API/"><img
-                src="./Assets/weather.png">Weather
-            Condition</a>
-            <a class="carousel-item" id="carbTracker" href="https://appcarbtracker.herokuapp.com/"><img
-                src="./Assets/carbTracker.png">Track Carbs</a>
+    <div class="carousel" id="projects" style="height: 200px">
+      <a
+        class="carousel-item"
+        id="todo"
+        href="https://ak0501.github.io/To-Do-Planner/"
+        ><img src="./Assets/todo.png" />TO-DO PLANNER</a
+      >
+      <a
+        class="carousel-item"
+        id="passwd"
+        href="https://ak0501.github.io/Password_Generator/"
+        ><img src="./Assets/password.png" />Password Generator</a
+      >
+      <a
+        class="carousel-item"
+        id="weather"
+        href="https://ak0501.github.io/Weather-API/"
+        ><img src="./Assets/weather.png" />Weather Condition</a
+      >
+      <a
+        class="carousel-item"
+        id="carbTracker"
+        href="https://appcarbtracker.herokuapp.com/"
+        ><img src="./Assets/carbTracker.png" />Track Carbs</a
+      >
+      <a
+      class="carousel-item"
+      id="carbTracker"
+      href="https://github.com/ak0501/pequenoOnes"
+      ><img src="./Assets/lilOnes.png" />Track Carbs</a
+    >
     </div>
     <!-------------------------------- carousel ------------------------------- -->
 
     <!--------------------------------- footer -------------------------------- -->
 
     <div class="footer-copyright center-align">
-        <div class="container" id="footer">
-            ©materialize
-        </div>
+      <div class="container" id="footer">©Avi K</div>
     </div>
     <!-- ------------------------------- footer -------------------------------- -->
 
     <!--JavaScript at end of body for optimized loading-->
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
